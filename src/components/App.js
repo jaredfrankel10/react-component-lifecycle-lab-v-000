@@ -31,11 +31,11 @@ class App extends React.Component {
   componentWillMount() {
        this.fetchTweets();
      }
-   
+
      componentDidMount() {
        this.startInterval();
      }
-   
+
      componentWillUnmount() {
        this.cleanUpInterval();
      }
